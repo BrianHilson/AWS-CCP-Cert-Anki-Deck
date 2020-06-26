@@ -1,0 +1,2781 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "72996eb8-b7a1-11ea-872e-3c07543140d7", 
+    "deck_config_uuid": "72a73c8c-b7a1-11ea-831e-3c07543140d7", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "72a73c8c-b7a1-11ea-831e-3c07543140d7", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 100, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [], 
+    "name": "AWS CCP Cert", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Text", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Extra", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Cloze", 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}\n{{Extra}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Cloze", 
+                    "ord": 0, 
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ], 
+            "type": 1, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Advantages and benefits of cloud computing:<br /><br />Trade capital expense for {{c1::variable}} expense.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "l(HHGeh6x~", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Advantages and benefits of cloud computing:<div><br /></div><div>Benefit from massive {{c1::economies of scales.}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "giady,^n3V", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Advantages and benefits of cloud computing:<div><br /></div><div>Stop guessing {{c1::capacity.}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "rpM5UnQ.5~", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Advantages and benefits of cloud computing:<br /><br />Increase ___ and ___<div><br /></div><div>{{c1::speed, agility}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "L6%cYP+bK`", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Advantages and benefits of cloud computing:<div><br /></div><div>Stop spending money on running and maintaining {{c1::data centers}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qiye;q4dn[", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Advantages and benefits of cloud computing:<br /><br />Go {{c1::global}} in minutes.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "k3`LTIL2S[", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "SaaS stands for {{c1::Software as a Service}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "HGp,Bu(>jd", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "PaaS stands for {{c1::Platform as a Service}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "uG1og4TYg+", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "IaaS stands for {{c1::Infrastructure as a Service}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Lu0.5d>MU3", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "The consumer for a SaaS is a {{c1::customer.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "B/J1KauUPl", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "The consumer for a PaaS is a {{c1::developer.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "D8y5=EK~Ik", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "The consumer for a IaaS is an {{c1::admin.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "JFN4?qiKiX", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "There are three models for cloud computing:<br /><br />{{c1::Cloud, Hybrid, and On-Premise}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "zV^Y&w;8]a", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<br /><br />{{c1::Regions}} are physical locations in the world with multiple availability zones", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "dC5[Nh}M#5", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<div><br /></div><div>{{c1::Availability zones}} are one or more discrete data centers.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "xtPw5Z*tpj", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<div><br /></div><div>An {{c1::edge location}} is a datacenter owned by a trusted partner of AWS.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "E7!JC8{qf/", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<br /><br />A region is a {{c1::geographically}} distinct location which has multiple AZ's.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Q.PN%:VVQj", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<br /><br />Every region is physically isolated from each other in terms of three things:<br /><br />{{c1::location, water, and power}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "O!?`*}qsX7", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<div><br /></div><div>Each region has at least {{c1::two}} AZ's</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Gx3g%(w=w(", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<div><br /></div><div>The largest region is {{c1::US-EAST}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "DHOO/|2_46", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<div><br /></div><div>New services almost always become available in the {{c1::US-East}} region first.<br /></div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "IU4E[`z=*8", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<div><br /></div><div>Not all services are available in all {{c1::regions.}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "P?m*RmlTy?", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<div><br /></div><div>{{c1::US-East-1}} is the region where you see your billing information.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Dd|P@U@yHi", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<div><br /></div><div>An {{c1::AZ}} is a datacenter owned and operated by AWS which AWS services run.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "c|WZJgp(`g", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<br /><br />{{c1::AZ's}} are represented by a Region Code, followed by a letter identifier e.g. us-east-1a", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "m_u85Ee&Gt", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<div><br /></div><div>{{c1::Multi-AZ}} configuration allows distributing your instances allows failover configuration for handling requests when one goes down.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "H<&er;49vo", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<div><br /></div><div>&lt; {{c1::10ms}} latency between AZ's</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "liN;L2h!qV", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<div><br /></div><div>An {{c1::Edge location}} is a datacenter owned by a trusted partner of AWS with a direct connection to the AWS network.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "KGPVNrJ&RY", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<div><br /></div><div>These locations serve requests for ___ and ___. Requests to either of these services will be routed to the nearest edge location automatically.<br /><br />{{c1::Cloudfront, Route 53.}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "n81?sf.%g|", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Global Infrastructure:<div><br /></div><div>Edge locations allow for low {{c1::latency}} no matter where the end user is located.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "C<*#>%*hU>", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::GovCloud}} Regions allow customers to host sensitive controlled unclassified information and other types of regulated workloads.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ekIJTlYkXT", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::GovCloud}} Regions are only operated by employees who are citizens of the U.S., on U.S. soil.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "sP&Lr%6:t", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "GovCloud regions are only accessible to U.S. entities and root account holders who pass a {{c1::screening process.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "d{rvx%KJp7", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "IAM stands for {{c1::Identity and Access Management}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "tWF$P-02.r", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "The advantage of using the sessions manager over ssh access to the server is that sessions manager logs {{c1::everytime someone uses a session.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Opds1?+=p%", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "An {{c1::Amazon Machine Image}} (AMI) provides the information required to launch an instance.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "AJ>UI/M=,J", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Auto scaling groups}} (ASG) are used to meet the demand of whatever traffic you have.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "kPn&=4CPtn", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ELB stands for {{c1::Elastic Load Balancer.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Ke_/6q*r6K", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Elastic Load Balancer}} evenly distributes load between multiple instances.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "J;R?&rZMkE", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::S3}} is used for storing files.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "w%OgAoj!DN", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "CDN stands for {{c1::content distribution network.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jZRoM6aA/F", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Cloudfront is an example of a {{c1::CDN.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "H[oqspapD~", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Relational Database Service}} allows you to create databases hosted by AWS.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "st7+V.aTua", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When you launch an EC2 instance, by default the pricing is {{c1::on-demand.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "D=Trga}AX@", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "EC2 stands for {{c1::elastic compute cloud}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "LYEcV&{Id+", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "In on-demand pricing you are charged by the {{c1::hour or minute.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "G:+D?w|HS0", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "On-demand pricing is best for cases where the workload is {{c1::short term, spikey, or unpredictable.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "kefUxiERvc", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Reserved instances}} pricing is best for long-term, steady state, predictable usage applications.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "nJQ9e$9l9B", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>Pricing:</div><div><br /></div>{{c1::Reserved instances}} can be shared between multiple accounts in an organization.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "cA$x(/Gqsh", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Pricing:<div><br /></div><div>Unused RI's can be sold on the {{c1::Reserved Instance Marketplace.}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "BQ2B];@1z?", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Pricing:<div><br /></div><div>Reserved instances allow for three payment models:<br /><br />{{c1::<div>All upfront</div><div>Partial upfront</div><div>No upfront</div>}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jBda^R4A#6", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Pricing:<br /><br />{{c1::Spot instances}} allow Amazon to utilize unused capacity on their servers by offering the capacity at a discount, like when a hotel offers cut rates on rooms to fill up the hotel.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "z#:{by=p58", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Pricing:<div><br /></div><div>Spot Instances can offer discounts as much as {{c1::90%}} compared to on-demand.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "EmI^42s9ex", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Pricing:<div><br /></div><div>{{c1::Spot instances}} work for applications which can have flexibile start or end times, or are only feasible at very low compute costs.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "sH=Z|=d7wu", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Pricing:<div><br /></div><div>{{c1::AWS Batch}} is an easy way to use Spot Pricing.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "HM^42-i@J[", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Pricing:<div><br /></div><div>The most expensive option for instances is {{c1::Dedicated Host.}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "h0/9Qo-]UB", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Pricing:<div><br /></div><div>{{c1::Dedicated hosting}} allows customers to each have their own physical machine, not share a machine with other users.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "kl&rOl?M8[", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Pricing:<div><br /></div><div>Dedicated Host is offered in two flavors:<br /><br />{{c1::<div>on-demand</div><div>reserved</div>}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "kTL%:Jx(VV", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Pricing:<div><br /></div><div>Reserved instances come in three classes:<br /><br />{{c1::standard<br />convertable - can be upgraded<br />schedulable - can run at certain times}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "LV8CExxI(s", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Support:<div><br /></div><div>AWS has 4 support plans:<br /><br />{{c1::Basic<br />Developer<br />Business&nbsp;<br />Enterprise}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "PUNpm72eB@", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Support:<div><br /></div><div>Basic support costs {{c1::$0}} per month</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "OT+nk%V]30", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Support:<div><br /></div><div>Developer support costs {{c1::$20}} per month.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "A/9*pu%J27", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Support:<div><br /></div><div>Business support costs {{c1::$100}} per month.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ytocAb2B/@", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Support<div><br /></div><div>Enterprise support costs {{c1::$15,000}} per month.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "N5_3,HOr$?", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Support:<div><br /></div><div>Which level has individuals assigned to help you with your account?<br /><br />{{c1::Enterprise}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "FUr6ELpb9(", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Support:<br /><br />Which levels offer support for 3rd party applications?<br /><br />{{c1::Business and enterprise}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "B_sZyEgNJ[", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Support:<br /><br />Which levels offer technical support via email?<br /><br />{{c1::Dev, Business and Enterprise}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "if=~S{qp8`", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>Support:</div><div><br /></div><div>Which level offers the fastest response time?<br /><br />{{c1::Enterprise}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "C%BC^5zVgD", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>Support:</div><div><br /></div><div>Basic and developer levels offer {{c1::7}} advisor checks.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "O[7o!?%=|-", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>Support:</div><div><br /></div><div>Business and enterprise offer {{c1::all}} advisor checks.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "twLC{,y*=|", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>Pricing:</div><div><br /></div>RI's require you to commit to a ___ or ___ year commitment.<br /><br />{{c1::1, 3}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "t_O~)!F^Q3", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::AWS Marketplace}} is a curated digitial catalog of thousands of listings from independent software vendors.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "o8J/+OU|QX", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::AWS Automated Advisor}} advises you on security, saving money, performance, service limits, and fault tolerance.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jrIPy!v(tX", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "There are 5 categories of checks for AWS Trusted Advisor:<br /><br />{{c1::Cost Optimization<div>Performance</div><div>Security</div><div>Fault Tolerance</div><div>Service Limits</div>}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "QF~30/[O38", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Consolidated billing}} is a feature which give you one bill for all of your accounts.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "bV51x]u`ds", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Use {{c1::cost explorer}} to visualize usage for consolidated billing.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "xWVtA-0W([", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS has {{c1::Volume Discounts}} for many services, so the more you use, the more you save.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "r1wwtTL@&9", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::AWS Cost Explorer}} lets you visualize, understand, and manage your AWS costs and usage over time.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "e?a%BFRKX8", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::AWS budgets}} give the you ability to setup alerts if you exceed or are approaching your defined budget.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "py84EN}A~~", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "TCO calculator stands for {{c1::Total Cost of Ownership calculator.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "n8^o$ziBK;", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Total Cost of Ownership}} provides you with a detailed set of pricing reports which can be used in executive presentations.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "M1r,^[7E!c", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::AWS Landing Zone}} helps enterprises quickly setup a secure AWS multi-account.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "wbW[U:C@j}", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Landing Zone provides you with a baseline to get started with a {{c1::multi-account architecture.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "y0+BpBDIft", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::AWS Account Vending Machine}} automatically provisions and configures new accounts via Service Catalog Template.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "D@BNzf2);|", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Account Vending Machine uses {{c1::Single Sign-On}} (SSO) to manage and access accounts.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qw7+,-4v3D", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Tags}} are words or phrases that act as metadata for organizing your AWS resources.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "D.xq9!C&W3", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Resource groups}} are a collection of resources that share one or more tags.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ci;(xd.MRQ", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::AWS Quick Starts}} are prebuilt templates by AWS and AWS partners to help you deploy popular stacks on AWS", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "p;jo0<)R*n", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Most Quick Start reference deployments all you to spin up a fully functional architecture in less than {{c1::an hour.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "M00<,S6Vl7", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::AWS Cost and Usage Report}} generates spreadsheets, enabling you to analyze and understand your AWS costs.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qNezY8=,Hi", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Cost and Usage Reports places your report in {{c1::S3.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "z`j.k)m&9n", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Amazon S3 stands for {{c1::Simple Storage Service.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "k%},Gmp)r)", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "With Cost and Usage Reports, you can use {{c1::Athena}} to turn the report into a queryable database.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "MsO8g/Q/US", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "With Cost and Usage Reports, you can use {{c1::Quicksight}} to visualize your billing data as graphs.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "c!*o$DN7~{", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Organizations and accounts:<div><br /></div><div>{{c1::Root Account User}} is a single sign-on identity that has access to all AWS services and resources in an account.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "x3a0Z{[?0{", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Organizations and accounts:<div><br /></div><div>{{c1::Organizations}} allow you to centrally manage billing, central control, compliance, security, and resources across your AWS accounts.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "xz?ZVeu`}*", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Organizations and accounts:<div><br /></div><div>_____ are a group of AWS accounts within an organization which can also contain other _____, creating a hierarchy.&nbsp;</div><div><br /></div><div>{{c1::organization units}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "eeRS|0j(j<", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Service control policies}} give central access over the allowed permissions for all accounts in your organization, helping to ensure your accounts stay within your organization's guidelines.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "A~-8y}*3Jn", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "VPC stands for {{c1::Virtual Private Cloud}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "On;f>g-Lc=", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Networking:<br /><br /><div>{{c1::Route tables}} determines where network traffic from your subnets are directed.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "G*iZ}zo6(F", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Networking:<br /><div><br /></div><div>{{c1::Security groups}} act as firewalls at the instance level.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "m/_yQ6>~;e", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Networking:<br /><div><br /></div><div>{{c1::Subnets}} are logical partitions of an IP network in smaller, multiple network units.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "IQQ&9q]pG2", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Networking:<br /><div><br /></div><div>{{c1::Internet gateway}} enables access to the internet.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "y/N_y5Elw&", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div><div>AWS Networking:</div></div><div><br /></div>A {{c1::network access control list}} (NACL) is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "kn(ZaRmY,&", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Database Services:<br /><br />{{c1::DynamoDB}} is a NoSQL key/value database.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "i2@N-d,mw?", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Database:<div><br /></div><div>{{c1::DocumentDB}} is a NoSQL Document database that is MongoDB compatible.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "B~p%<lb_Tq", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Database:<div><br /></div><div>{{c1::RDS}} is a service that supports multiple database engines.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "zmW^ey{D)%", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Database:<div><br /></div><div>{{c1::Aurora}} is a fully managed MySQL and PSQL database service.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "m[nL|/L5Sq", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Database:<div><br /></div><div>{{c1::Aurora serverless}} is a database that only runs when you need it, like Lambda.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ba{9{xn|lW", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Database:<div><br /></div><div>{{c1::Neptune}} is a managed Graph database.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "gr`Gh6r/s<", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Database:<div><br /></div><div>{{c1::Redshift}} is a columnar, petabyte warehouse.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "rV<O?]{sjU", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Database:<div><br /></div><div>{{c1::Elasticache}} is a Redis or Memcached database.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "hXn]K&PIuk", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Provisioning:<div><br /></div><div>{{c1::Elastic beanstalk}} is a service for deploying and scaling web applications developed with Java, .NET, PHP, NodeJS, Ruby, Go, Python, and Docker</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "bY^SLx6,Wm", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Provisioning:<div><br /></div><div>{{c1::OpsWorks}} is a configuration management service that provides instances of Chef and Puppet.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "N0Z*j]_I/+", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::CloudFormation}} provides instances as code in the form of JSON or YAML.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "DM;8tOn<|V", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Provisioning}} is the the allocation or creation of resources and services to a customer.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "q>1,I@&rv)", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Computing:<br /><br />ECS stands for {{c1::Elastic Container Service}}.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "f|9z&S,h/)", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Computing:<br /><br /><div>{{c1::Elastic Container Service}} is Docker as a service.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "NiqMbue2u8", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Computing:<br /><div><br /></div><div>{{c1::Fargate}} is microservices where you don't have to think about infrastructure. Play per task.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "whk>m$k=Ul", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Computing:<br /><div><br /></div><div>{{c1::Elastic Kubernetes Service}} is Kubernetes as a service. Easy to deploy, manage and scale containerized services using Kubernetes.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "dGx.%2C*%n", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Computing:<br /><div><br /></div><div>{{c1::Lambda}} allows you to run code without provisioning or maintaining servers. Pay for only compute time.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "v@TZfGsH.h", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>Computing:<br /></div><div><br /></div>{{c1::Elastic Beanstalk}} orchestrates various AWS services.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "N`I!]V)P6e", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Computing:<br /><div><br /></div><div>{{c1::AWS batch}} plans, schedules, and executes your batch workloads across the full range of AWS services and features, such as EC2 and Spot Instances.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "(nz14#n-r", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Storage:<br /><br />{{c1::S3}} is an object store. Can be thought of as a hard drive in the cloud.&nbsp;", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "mQNs94+8x:", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::S3 Glacier}} is low cost storage for archiving and long-term backup.&nbsp;", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "rE#&0[ua`/", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Storage:<br /><br />{{c1::Storage Gateway}} is hybrid cloud storage for local caching.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "wPR-dz4{!O", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Storage:<br /><br /><div>EBS stands for {{c1::Elastic Block Storage.}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "E&}jh0>%9b", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Storage:<br /><br /><div>{{c1::Elastic Block Storage}} is like a hard drive in the cloud that you attach to EC2 instances.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "r!CTG.|)+i", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Storage:<br /><br /><div>{{c1::Elastic File Storage}} is file storage mountable to multiple EC2 instances as the same time.&nbsp;</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "q)a$4TptQB", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Storage:<br /><br /><div>{{c1::Snowball}} allows you to physically migrate lots of data via a computer suitcase.&nbsp;</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "yd+8K`rA|X", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Storage:<br /><br /><div>A Snowball suitcase can store {{c1::50-80}} terabytes.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "pZc*Z9E6Eh", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Storage:<br /><br /><div>Snowball Edge can store {{c1::100}} terabytes.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ypn}^~(_-Z", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Storage:<br /><br /><div>{{c1::Snowmobile}} is a shipping container pulled by a semi-truck.&nbsp;</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Fo8~G=WT6l", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Storage:<br /><br /><div>A Snowmobile can store up to {{c1::100 petabytes.}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "m_+>un8o<[", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Business Centric Services:<br /><br /><div>{{c1::Amazon connect}} is a cloud-based call center service you can setup in just a few clicks.&nbsp;<br /><br /></div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qG~q)fP5,~", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Business Centric Services:<br /><div><br /></div><div>{{c1::WorkSpaces}} provides Virtual Remote Desktops for Linux or Windows machines which can scale up to thousands of desktops.&nbsp;</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "t-U8Hj6idL", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>Business Centric Services:</div><div><br /></div><div>{{c1::WorkDocs}} is a content creation and collaboration service, comparable to Sharepoint.&nbsp;</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "s`YBGNJ*fG", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>Business Centric Services:</div><div><br /></div><div>{{c1::Chime}} is a platform for online meetings and video conferences which elastically scales to meet demand.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "xr!4qzqbm`", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>Business Centric Services:</div><div><br /></div><div>{{c1::WorkMail}} is managed business email, contacts, and calendar service with support for existing email applications via IMAP.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "xG0j!q)ySM", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>Business Centric Services:</div><div><br /></div><div>{{c1::Pinpoint}} is a marketing campaign management service which you can use for sending targeted emails, SMS messages, push notifications, and text messages.&nbsp;</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "DN~uZ8yuLe", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>Business Centric Services:</div><div><br /></div><div>{{c1::Simple Email Service}} is a cloud-based email sending service designed for email marketers and application developers to send marketing and notification emails.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "O{0z;*L3)o", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>Business Centric Services:</div><div><br /></div><div>{{c1::Quicksight}} is a business intelligence service which allows you to connect multiple data sources and quickly visualize data in the form of graphs with little to no programming knowledge.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "w)ngwDa7d$", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Enterprise Integration:<div><br /></div><div>{{c1::Direct Connect}} gives you a gigabit network connection from your premises directly to AWS.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "eSX-bTSa?J", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Enterprise Integration:<div><br /></div><div>{{c1::VPN}} establishes a secure network connection to your AWS network.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "xL.02V63D)", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Enterprise Integration:<div><br /></div><div>{{c1::Storage Gateway}} is a hybrid storage solution that enables your on-premises applications to use AWS storage.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ER0Nxuls*8", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Enterprise Integration:<div><br /></div><div>{{c1::Active Directory}} enables your directory-aware workloads and AWS resources to use managed Active directory in the AWS cloud.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "v#o1%k1(R~", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Logging Services:<div><br /></div><div>{{c1::CloudTrail}} logs all API calls between AWS services.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "AaWf2YsnTU", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Logging Services:<div><br /></div><div>CloudTrail helps answer the question \"Who can we {{c1::blame}}?\"</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qpu7<8Q;k|", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Logging Services:<div><br /></div><div>{{c1::CloudWatch}} is a collection of multiple logging services.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "C!^,FJmI7H", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "CloudWatch:<div><br /></div><div>{{c1::Logs}} gives you performance data about AWS services.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "K%Vvt;[4X1", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "CloudWatch:<div><br /></div><div>{{c1::Metrics}} represents a time-ordered set of data points - a variable to monitor.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ptoOHx0V!#", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "CloudWatch:<div><br /></div><div>{{c1::Events}} trigger an event based on a condition such as a snapshot of the server every hour.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "b_d;S!I?a^", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "CloudWatch:<div><br /></div><div>{{c1::Alarms}} trigger alarms based on metrics.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jSo$zRtfst", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "CloudWatch:<div><br /></div><div>{{c1::Dashboard}} creates visualizations based on metrics.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "p{G%bb&({=", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "SWF stands for {{c1::Simple Workflow Service}}.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "MY!IplcRRy", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "SNS stands for {{c1::Simple Notification Service}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Paa+@8;*kY", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "SQS stands for {{c1::Simple Queue Service}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "e1wwGg_Idj", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "SES stands for {{c1::Simple Email Service}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "LWmX8$jG[|", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "SSM stands for {{c1::Simple Systems Manager.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "JY%`cz7.vd", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "CFN stands for {{c1::CloudFormation.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "j-lG6jU.&k", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "WAF stands for {{c1::Web Application Firewall.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qRy2p07x~c", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ASG stands for {{c1::Auto Scaling Groups.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "e_[zF*$^pM", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "TAM stands for {{c1::Technical Account Manager.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "k}yNg|=X*+", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ALB stands for {{c1::Application Load Balancer.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jDrQ,Zv{Q!", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "NLB stands for {{c1::Network Load Balancer.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "w}Z(DDIDrL", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ECR stands for {{c1::Elastic Container Registry}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "MfZ-=6,]4x", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "EMR stands for {{c1::Elastic Map Reduce.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jWt])~ew$c", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "EB stands for {{c1::Elastic Beanstalk}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "E[xyK=XbbC", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ES stands for {{c1::Elasticsearch}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "GB}l`GeYTi", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "EKS stands for {{c1::Elastic Kubernetes Service.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "d2gl}2%,Sn", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "MKS stands for {{c1::Managed Kafka Service.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "o}8|9>9zM%", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "RI stands for {{c1::Reserved Instance.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "zC_ZU@qzlW", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Shared Responsibility - Security:<div><br /></div><div>Customers are responsible for two things:</div><div><br /></div><div>{{c1::<div>data</div><div>configuration</div>}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "JqQ+yTVG/)", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Shared Responsibility - Security:<div><br /></div><div>Customers are responsible for security {{c1::in}} the cloud.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jm+}HZ~4`V", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Shared Responsibility - Security:<div><br /></div><div>AWS is responsible for security {{c1::of}} the cloud.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "m/ICfUCYrB", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Shared Responsibility - Security:<div><br /></div><div>Amazon is responsible for three things:<br /><br /></div><div>{{c1::<div>Hardware</div><div>Operation of Managed Services</div><div>Global Infrastructure</div>}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ze;g1uuM{r", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Compliance Programs:<div><br /></div><div>Two examples of the compliance programs AWS complies with include {{c1::HIPAA and PCI DSS.}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "k`9Wbn8_3(", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::AWS Artifact}} is a no-cost self service portal for on-demand access to AWS compliance reports.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Lo=z{YF=t>", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Security:<div><br />{{c1::Hardening}} is the act of removing as many security risks as possible.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "i`CMK)f4|R", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::AWS Inspector}} runs a security benchmark against specific EC2 instances.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "oy|;2Qy5Bk", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "WAF:<br /><br />Web Application Firewall protects your web application from common {{c1::web exploits.&nbsp;}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "b,lhv_(BF.", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "WAF:<div><br /></div><div>Write you own set of rules to allow or deny traffic based on the contents of an {{c1::HTTP request.}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "(I+iu;N|#", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "WAF:<div><br /></div><div>Use a ruleset for an AWS partner from the {{c1::AWS WAF Rules Marketplace.&nbsp;}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ri=|Kh5L0h", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "WAF:<div><br /></div><div>Can be attached to two services:<br /><br />{{c1::CloudFront<br />Application Load Balancer}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Ma<T3^}|5Q", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "DDoS stands for {{c1::Distributed Denial of Service.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "y,~/LQk,[P", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::AWS Shield}} is a managed DDoS protections service that safeguards services running on AWS.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "rsiPpbhLaB", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "All AWS customers benefit from AWS Shield {{c1::Standard}} at no extra cost.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Dn|/~Xi7MS", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Higher level DDoS protection is available under {{c1::Shield Advanced.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "A#6cqh@gK6", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Shield:<div><br /></div><div>Shield Advanced costs {{c1::$3000}} per year.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "pfLK4[jUoX", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Amazon Route 53}} is a highly available and scalable cloud Domain Name System (DNS) web service", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "mP>Ef0U[S*", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Amazon CloudFront}} is a fast content delivery network (CDN).", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "b6ZMN4?L*!", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Pentest}} is an authorized simulated attack on a computer system performed to evaluate the security of the system.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "j3-;u&I-y?", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Pen Testing is allowed for all services on AWS.<div><br /></div><div>True/False</div><div><br /></div><div>{{c1::False}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "tG0r8},hWt", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Guard Duty}} is a threat detection service which continuously monitors for malicious, suspicious activity and unauthorized behaviour.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Lj`jYfs;H.", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Guard Duty:<br /><br /><div>GD uses {{c1::machine learning}} to analyze AWS logs.<br /><br /></div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "QYV>zjs4[_", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Guard Duty:<br /><div><br /></div><div>GD will alert you to findings, which you can automate an {{c1::incident reponse}} to via Cloud Events or other 3rd party services.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "cQFT+jEiZh", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "KMS stands for {{c1::Key Management Service.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "vQqj9XJ&h", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Key Management Service}} is a managed service which makes it easy for you to create and control encyption keys used to encrypt your data.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "i;Cb=8ZMy+", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "HSM stands for {{c1::Hardware Security Module.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "e>lR5g$~Lb", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Envelope encryption involves encrypting your data key with a {{c1::master key.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "h</nQ#2UP]", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Amazon Macie}} is a fully managed service that monitors S3 data access for anomalies and generates automated results when it detects risks of unauthorized access or data leaks.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "pB~+6$bj)F", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Macie works by using {{c1::machine learning}} to analyze your CloudTrail logs.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Db1*wuek/l", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::NACL's}} act as firewalls at the subnet level.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "i;i]nemG:C", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Security Groups implicitly deny {{c1::all access}}.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "sW{5Ofk$U,", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "The example of using a NACL is to {{c1::block a specific IP address.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "bx`{YJ#.a&", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Security Groups can't block a specific IP address because they implicitly {{c1::deny all access.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "lqyY.$1A]L", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS VPN comes in two flavors:<br /><br /><div>{{c1::<div>Site to site VPN</div><div>Client VPN</div>}}</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Mx^$l_qktj", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Site-to-Site VPN allows an {{c1::entire office}} to connect to the cloud.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "hbA3~G`-yF", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "AWS Client VPN allow a {{c1::single user}} to connect to the cloud.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Qaq@*O5ehm", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::CloudSearch}} is a search engine you could add to your ecommerce site.&nbsp;", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "I/WCVC8qLP", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::AWS Elemental MediaConnect}} is a high-quality transport service for live video.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "zWet5]6hQV", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::AWS Elemental MediaConvert}} is a file-based video transcoding service with broadcast-grade features. It allows you to easily create video-on-demand (VOD) content for broadcast and multiscreen delivery at scale.&nbsp;", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "FD&n`O~4cl", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Simple Notification Service}} is generally used for sending plain text emails.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Q{+EbXE~T[", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Simple Notification Service}} is used to send notifications to subscribers of topics.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "z3v])VByx@", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Rather than using Classic Load Balancer, you should choose ALB or NLB because {{c1::they have more features.&nbsp;}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "NcJxxq<l3S", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Elastic Load Balancer can also be referred to as {{c1::Classic Load Balancer or CLB.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "gn3Ws@2QC(", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Layer 7 is also known as the {{c1::application layer.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "J.Aov./d#I", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Layer 4,&nbsp;&nbsp;the transport layer, ensures {{c1::complete data transfers.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "w7ZwQ7jedx", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Amazon Elastic Container Registry (ECR)}} is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "fUu%q>w}OK", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Amazon {{c1::Simple Workflow Service}} helps developers build, run, and scale background jobs that have parallel or sequential steps. You can think of it as a fully-managed state tracker and task coordinator in the Cloud.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "H%(OEWE>n-", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Amazon {{c1::Elastic Map Reduce}}&nbsp;is the industry-leading cloud big data platform for processing vast amounts of data using open source tools such as Apache Spark, Apache Hive, Apache HBase, Apache Flink, Apache Hudi, and Presto.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "b5WV_afZLg", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Simple Systems Manager}} provides a unified user interface so you can view operational data from multiple AWS services and allows you to automate operational tasks across your AWS resources.&nbsp;", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "l?V3l/0D++", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A {{c1::Hardware Security Module}} is designed to store keys securely in memory, so they are never written to disc.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "h@v9._v4a*", 
+            "note_model_uuid": "72a7cf42-b7a1-11ea-8550-3c07543140d7", 
+            "tags": []
+        }
+    ]
+}
